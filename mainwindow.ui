@@ -6,25 +6,571 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>299</width>
+    <height>458</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>22</height>
-    </rect>
-   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	font: 700 26pt &quot;Vela Sans GX&quot;;
+	qproperty-alignment: 'AlignVCenter | AlignRight';
+}</string>
+    </property>
+    <property name="text">
+     <string>1200</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	qproperty-alignment: 'AlignVCenter | AlignRight';
+	font: 700 14pt &quot;Vela Sans GX&quot;;
+	border-top:  2px solid rgb(242, 248, 252);
+}</string>
+    </property>
+    <property name="text">
+     <string>75*4*4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 18pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>CE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 500 18pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>+/-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>150</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 500 18pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>%</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>150</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 500 18pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>210</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>210</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 20pt &quot;Vela Sans GX&quot;;
+	padding-top: 10px;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>210</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 18pt &quot;Titillium Web&quot;;
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>210</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>270</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 18pt &quot;Titillium Web&quot;;
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>270</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 20pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>330</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>330</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>330</y>
+      <width>51</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 28pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_17">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 18pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_18">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color : rgb(242, 248, 252);
+	color : rgb(69, 69, 69);
+	border: 1px solid  rgb(242, 248, 252);
+	border-radius: 6px;
+	font: 22pt &quot;Titillium Web&quot;;
+}
+
+QPushButton:pressed {
+	background-color : rgb(203, 211, 216);
+}</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_19">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>390</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 700 22pt &quot;Vela Sans GX&quot;;
+	background-color : rgb(82, 201, 220);
+	color : white;
+	border: 1px solid rgb(82, 201, 220);
+	border-radius: 6px;
+}
+
+QPushButton:pressed {
+	background-color : rgb(74, 175, 191);
+}</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	font: 700 26pt &quot;Vela Sans GX&quot;;
+	color: rgb(82, 201, 220);
+	qproperty-alignment: 'AlignVCenter | AlignLeft';
+}</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+   </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
